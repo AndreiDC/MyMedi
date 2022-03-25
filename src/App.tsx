@@ -1,10 +1,14 @@
 import { useState } from "react";
-import { Icon } from "@iconify/react";
+import { Notification } from "./components/notification/Notification";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return <Icon icon="ant-design:close-outlined" />;
+  return (
+    <div>
+      <Notification />
+    </div>
+  );
 }
 
 export default App;
