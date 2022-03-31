@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="container mx-auto ">
+    <div className="mx-100% ">
       <Notification />
       <div className="hidden md:contents">
         <TopMenu />
