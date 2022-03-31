@@ -3,6 +3,7 @@ import { MyLogo } from "./MyLogo";
 import { Search } from "./Search";
 import { MegaMenu } from "./MegaMenu";
 import { MainIcons } from "./MainIcons";
+import { LanguageCurrency } from "./LanguageCurrency";
 
 export const MainMenu = () => {
   return (
@@ -13,11 +14,17 @@ export const MainMenu = () => {
       <div className="w-1/2 flex justify-end items-center  box-content  md:hidden     ">
         <Search />
       </div>
+      <div className="hidden md:contents lg:hidden ">
+        <div className="flex justify-center space-x-2">
+          <LanguageCurrency />
+          <MainIcons />
+        </div>
+      </div>
       <div className="hidden lg:contents  ">
         <div className="flex justify-center lg:w-1/2 lg:mr-30">
           <MegaMenu />
         </div>
-        <div className="flex justify-end lg:w-1/3    ">
+        <div className="flex justify-end lg:w-1/3 md:contents     ">
           <MainIcons />
         </div>
       </div>
