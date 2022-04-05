@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="mx-100% ">
+    <div className="mx-100% font-serif ">
       <Notification />
       <div className="hidden md:contents">
         <TopMenu />

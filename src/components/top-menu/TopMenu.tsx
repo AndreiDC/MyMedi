@@ -7,7 +7,7 @@ import { Currency } from "./Currency";
 
 export const TopMenu = () => {
   return (
-    <div className="w-100% h-8 border-white bg-blue-900 pr-4 pl-4 mr-auto ml-auto font-sans text-white font-medium box-border flex items-center  ">
+    <div className="w-100% h-8 border-white bg-blue-900 pr-4 pl-4 mr-auto ml-auto font-serif text-white font-medium box-border flex items-center  ">
       <div className="w-1/2 lg:w-1/3   ">
         <HeaderText />
       </div>

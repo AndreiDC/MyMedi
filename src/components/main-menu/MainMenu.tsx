@@ -7,7 +7,7 @@ import { LanguageCurrency } from "./LanguageCurrency";
 
 export const MainMenu = () => {
   return (
-    <div className="w-100% pr-4 pl-0 h-16 mr-auto ml-auto font-sans box-content flex cursor-pointer  ">
+    <div className="w-100% pr-4 pl-0 h-16 mr-auto ml-auto font-serif box-content flex cursor-pointer  ">
       <div className=" w-1/2  lg:w-1/4 flex justify-center sm:justify-start  md:pl-4 md:pr-4  md:mr-auto md:ml:auto">
         <MyLogo />
       </div>
