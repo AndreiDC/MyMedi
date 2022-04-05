@@ -3,6 +3,7 @@ import { Thumnail } from "./Thumnail";
 import { Baged } from "./Baged";
 import { Title } from "./Title";
 import { Desc } from "./Desc";
+import { Group } from "./Group";
 
 export const HeroSection = () => {
   return (
@@ -11,6 +12,7 @@ export const HeroSection = () => {
       <Baged />
       <Title />
       <Desc />
+      <Group />
     </div>
   );
 };
