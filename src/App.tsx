@@ -3,6 +3,7 @@ import { Notification } from "./components/notification/Notification";
 import { TopMenu } from "./components/top-menu/TopMenu";
 import { MainMenu } from "./components/main-menu/MainMenu";
 import { HeroSection } from "./components/hero-section/HeroSection";
+import { HeroSectionTwo } from "./components/hero-section-two/HeroSectionTwo";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,9 @@ function App() {
         <div className="pt-8">
           <HeroSection />
         </div>
+      </div>
+      <div className=" -mt-10 min-h-screen bg-cover bg-center bg-[url('https://dummyimage.com/1920x700/cccccc/969696.jpg')]">
+        <HeroSectionTwo />
       </div>
     </div>
   );
