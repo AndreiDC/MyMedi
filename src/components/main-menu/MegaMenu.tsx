@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 
 export const MegaMenu = () => {
   return (
-    <ul className=" flex items-center space-x-2  font-serif text-blue-900 truncate  ">
+    <ul className=" flex items-center space-x-2  font-serif text-blue-900 truncate cursor-pointer ">
       <li className="h-10 flex items-center rounded-full text-white w-auto p-3 bg-blue-900 space-x-2 ">
         <Icon className="mr-1 mb-1" icon="bi:menu-button" />
         Products <Icon className="w-3 h-3" icon="bi:chevron-down" />
