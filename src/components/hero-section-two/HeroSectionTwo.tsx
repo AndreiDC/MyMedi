@@ -6,7 +6,7 @@ import { Shop } from "./Shop";
 
 export const HeroSectionTwo = () => {
   return (
-    <div className="lg:ml-4">
+    <div className="lg:ml-4 mb-12 ">
       <div className="  lg:flex justify-start ">
         <Baged />
       </div>
