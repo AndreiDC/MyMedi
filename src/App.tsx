@@ -5,12 +5,13 @@ import { MainMenu } from "./components/main-menu/MainMenu";
 import { HeroSection } from "./components/hero-section/HeroSection";
 import { HeroSectionTwo } from "./components/hero-section-two/HeroSectionTwo";
 import { BenefitsSection } from "./components/benefits-section/BenefitsSection";
+import { VideoSection } from "./components/video-section/VideoSection";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="mx-100% font-serif ">
+    <div className="w-100% font-serif ">
       <Notification />
       <div className="hidden md:contents">
         <TopMenu />
@@ -27,6 +28,7 @@ function App() {
         <HeroSectionTwo />
       </div>
       <BenefitsSection />
+      <VideoSection />
     </div>
   );
 }
