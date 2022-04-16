@@ -8,7 +8,7 @@ export const Reviews = () => {
   return (
     <div className="py-20 font-serif ">
       <Title />
-      <div className=" flex flex-wrap justify-evenly lg:-mx-16    ">
+      <div className=" flex flex-wrap justify-evenly lg:-mx-28    ">
         <div className="bg-slate-200 p-7 w-80 h-64 mb-16 ">
           <Text />
           <Name />
