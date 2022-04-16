@@ -6,6 +6,7 @@ import { HeroSection } from "./components/hero-section/HeroSection";
 import { HeroSectionTwo } from "./components/hero-section-two/HeroSectionTwo";
 import { BenefitsSection } from "./components/benefits-section/BenefitsSection";
 import { VideoSection } from "./components/video-section/VideoSection";
+import { Reviews } from "./components/reviews/Reviews";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,6 +30,7 @@ function App() {
       </div>
       <BenefitsSection />
       <VideoSection />
+      <Reviews />
     </div>
   );
 }
