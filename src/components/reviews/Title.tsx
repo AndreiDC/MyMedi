@@ -2,7 +2,7 @@ import React from "react";
 
 export const Title = () => {
   return (
-    <div className=" flex justify-center mb-6 space-x-3">
+    <div className=" flex justify-center mb-6 space-x-3 font-justSantSerif">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
