@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 
 export const Extent = () => {
   return (
-    <div className="pt-7   ">
+    <div className="pt-7 font-justSantSerif  ">
       <div className=" flex flex-wrap justify-evenly ">
         <div className="text-center mt-10">
           <div className=" inline-flex items-center justify-center  mb-5 ">

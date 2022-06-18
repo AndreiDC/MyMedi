@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 
 export const Group = () => {
   return (
-    <div className="flex lg:justify-start  justify-center text-blue-900 font-serif  ">
+    <div className="flex lg:justify-start  justify-center text-blue-900 font-justSantSerif  ">
       <div className="text-lg   flex-col font-medium mb-4    ">
         <div className="flex mb-4 space-x-4  ">
           <div className="text-2xl">
